@@ -97,27 +97,47 @@ section {
 .formating {
     flex-direction: row;
     margin-top: 70px;
+    position: relative;
 }
 h4 {
     font-size: 69px;
     padding-left: 90px;
-    margin-right: 40px;
+    margin-right: 0;
     padding-right: 20px;
     border-right: 6px rgb(152, 182, 226) solid;
 }
 .onepiece {
-    width: 750px;
+    width: 80%;
     height: auto;
     border: 5px rgb(152, 182, 226) solid;
     opacity: .5;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
 }
 /* Need to do something to the opacity and need to organize all the pictures */
 #onepiece:hover {
     opacity: 1;
 }
 .caption {
-    display:inline
-
+    position: absolute;
+    left: 420px;
+    top: 500px;
+    padding: 20px 20px 10px 20px;
+    background-color: rgb(152, 182, 226);
+    font: bold;
+    color: black;
+    font-size: 30px;
+}
+span{
+    font-size: 20px;
+    font: 0;
+}
+.animephotos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: auto;
 }
 
 
